@@ -1,6 +1,7 @@
 //THis keyword is called as Object reference or reference variable because it refers object
 //It always refers current object
 //It is implicitly present in Instance method,intialization block &constructor
+//This keyword must be first statement in Constructor
 public class ThisKeyword {
     int x=10;
     void display(){
