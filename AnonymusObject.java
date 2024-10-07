@@ -6,7 +6,7 @@ public class AnonymusObject {
     }
     public static void main(String[] args) {
      //It is the Anonymus Object
-        new ObjectCreation().display();
+        new AnonymusObject().display();
   
     }
 }
