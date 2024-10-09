@@ -13,6 +13,6 @@ public class Emp{
         System.out.println("employeeid :"+e1.empNo+"\tsalary :"+e1.salary);
         System.out.println("employeeid :"+e2.empNo+"\tsalary :"+e2.salary);
         System.out.println("employeeid :"+e3.empNo+"\tsalary :"+e3.salary);
-//This way of initialization is suitable for one object and many objects also      
+//This way of initialization is suitable for one object and many objects aslo      
     }
 }
