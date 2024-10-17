@@ -1,0 +1,24 @@
+String Handling:-
+            There are four string related classes to handle strings.
+            1) java.lang.String
+            2) java.lang.StringBuffer
+            3) java.lang.StringBuilder
+            4) java.util.StringTokenizer
+            Every string literal itself an object of String class in Java.
+
+            Example:-
+
+            “Welcome” is an object of String class.
+
+            String s1=”Welcome”;=> This statement creates one object in a string constant pool.
+
+            String s2=new String(“Hello”); => This statement creates two string objects (one
+            object created in a string constant pool & one more object created outside the
+            pool)
+
+            Note: String constant pool does not create duplicates. 
+
+    1.java.lang is adefault packagr &it is impilictiy imported
+    2.java.object class is a default class & it is impilictiy inherited in every class
+    3.toString() is a default method & it is impilictiy called whenever an object reference is passed 
+    as a parameter to a method
