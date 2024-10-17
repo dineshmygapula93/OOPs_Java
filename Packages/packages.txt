@@ -1,0 +1,45 @@
+Packages:-
+        A package is a collection of subpackages, classes & interfaces
+        The java compiler generates .class file for every class & every interface in a source file
+        The java compiler generates folder for every package & every sub package in a source file
+
+    To do Packages program using cmd & notepad steps as follows
+
+        creating folder using command prompt:-
+
+        md is command used create folder or directory
+        c:\md src
+        c:\md classes
+
+        open the src folder by command "cd src"
+        c:\ cd src
+
+        c:\src start notepad A.java
+        above command opens notepad with java extension to write code
+
+        To compile use below line 
+        C:\src>javac -d c:/classes A.java
+        
+        Here -d it omits current directory 
+         c:/classes ->It is a destinatin directory
+
+        C:\src start notepad B.java
+        C:\src>javac -d c:/classes B.java
+
+        C:\src start notepad C.java
+        C:\src>javac -d c:/classes C.java
+
+
+        C:\src>start notepad Main.java
+
+        To set classpath
+        C:\src>set classpath="%classpath%".;C:\classes;
+
+        C:\src>javac -d c:/ Main.java
+        C:\src>cd\
+        C:\java test.Main
+
+
+        note: in real time we don't need to care about above steps because its implicity done by IDE like eclipise
+        
+
