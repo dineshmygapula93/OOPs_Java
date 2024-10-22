@@ -1,0 +1,72 @@
+Streams:-
+A stream is a flow of data from source to destination. A source can be a keyboard,
+file, client, server, ... etc., A destination can be a monitor, file, client, server, .. etc.,
+
+In Java, streams are divided into 3 categories:
+            1) Console Input/Output Streams
+            2) File Input/Output Streams
+            3) Network Input/Output Streams
+
+            Predefined Streams:
+            There are 3 predefined streams
+                        1) in
+                        2) out
+                        3) err
+
+            "in" is an object reference of java.io. InputStream class
+
+            "out" & "err" are object reference of java.io.PrintStream class.
+
+            The above all predefined streams are static members of java.lang.System class.
+            Differences between System.out & System.err
+
+            System.out                                          System.err
+            1) It is used to display output messages.         1) It is used to display error messages.
+            
+            2)This stream data can be redirected to a file.   2) This stream data cannot  be redirected to a file.
+
+
+
+
+There are two types of streams:
+        1) Byte streams
+        2) Character streams
+Byte streams handle all types of data where as character streams handle text only.
+   List of byte stream classes:
+                    1) InputStream
+                    2) PrintStream
+                    3) FileInputStream
+                    4) FileOutputStream
+                    5) ObjectInputStream
+                    6) ObjectOutputStream
+                    7) DataInputStream
+                    8) DataOutputStream
+
+DataInputStream & DataOutputStream classes support all primitive data types & strings.
+
+ObjectInputStream & ObjectOutputStream classes support objects
+   List of Character streams:
+                    1) FileReader
+                    2) FileWriter
+                    3) BufferedReader
+                    4) BufferedWriter                             
+
+Object Streams:
+            1) ObjectInputStream: It is used to read an object from file
+            2) ObjectOutputStream: It is used to write an object to a file
+
+Serialization:
+            It is a process of converting object into a series of bits.
+
+In Java, object must be serializable to do the following operations:
+            1) Writing object to a file
+            2) Reading object from file
+            3) Writing object to a network
+            4) Reading object from network
+
+The class must implements java.io.Serializable interface to make serializable object
+java.io.Serializable interface is a marker interface, tag interface or empty interface because no members in this interface.
+
+transient keyword:
+            It is used to prevent serialization. It is used in real time applications with
+            passwords, PIN numbers, security code, ... etc
