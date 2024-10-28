@@ -1,0 +1,35 @@
+Network Programming:-
+
+            Network:
+            A set of co-operative interconnected computers.
+            Co-operation is possible with network software and interconnection is possible with network hardware.
+
+            Internet:- Network of Network is called as an internet
+            Client:- A client is a software the sends request to a server to  get the response
+
+            server:-A server is a software that receives request from the client,process the request,constructs 
+                    the response back to the client
+            Socket:- It is a connection end at client side.
+
+            ServerSocket:- It is a connection end at server side.
+
+            Port Number:- It is used to identify the service. Port numbers range is 0 to 65535.
+            Reserved port numbers are 0 to 1023 and free port numbers are 1024 to 65535.
+
+All the network class are present in the java.net.*; package
+    Steps to develop client application:
+
+    1) Create a Socket object with server address and port number.
+    2) Create an OutputStream that can be used to send information to the server.
+    3) Create an InputStream that can be used to receive information from the server.
+    4) Do Input/Output Operations.
+    5) Close the Socket
+
+    Steps to develop server application:
+
+    1) Create a ServerSocket object with port number.
+    2) Call accept() method to receive requests from the client.
+    3) Create an InputStream that can be used to receive information from the client.
+    4) Create an OutputStream that can be used to send information to the client.
+    5) Do Input/Output operations.
+    6) Close the ServerSocket.
