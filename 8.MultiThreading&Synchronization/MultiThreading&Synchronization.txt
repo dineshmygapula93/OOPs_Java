@@ -1,0 +1,61 @@
+MultiThreading:-
+        Execution of more than one thread at a time is called MultiThreading
+Thread:-
+        A thread is a piece of code that executes independently
+        Every program contians atleast one thread i.e Main thread
+        Main thread default name is main only.
+        Main thread default priority is normal priority(Priority number is 5)
+There are two ways to create a new thread:
+    1) By extending java.lang.Thread class
+    2) By implementing a java.lang.Runnable interface
+
+Here Thread class implements Runnable interface
+
+    Whenever thread class constructor is called new thread will born.
+    Thread comes to a ready state whenever start() method is called.
+    Thread will run whenever run() method is called.
+
+Note:-start() method impilicity calls run method
+
+    Thread comes to a sleeping state whenever sleep() method is called.
+    Sleeping thread will wake up automatically whenever time interval is finished.
+    sleep() Take milliseconds as a parameter
+
+    Thread is suspended whenever suspend() method is called.
+    Suspended thread will run whenever resume() method is called.
+
+    Thread comes to a waiting state whenever wait() method is called.
+    Waiting thread will run whenever notify() method is called.
+
+    Thread will die whenever destroy() method is called.
+
+
+
+Steps to develop multithreaded application by extending java.lang.Thread class:
+
+    1) Create a class that extends java.lang.Thread class
+    2) Override run() method.
+ Note: run() method given as a null body method to write child thread task code.
+    3) Write child thread task code in a run() method.
+    4) Write main() method
+    5) Create an object of current class.
+    6) Call start() method.
+Note: start() method implicitly calls run() method.
+    7) Write main thread task code in a main() method.
+
+Steps to create multithread application by implementing java.lang.Runnable interface:
+1) Create a class that implements java.lang.Runnable interface.
+2) Override run() method.
+3) Write child thread task code in a run() method.
+4) Write main() method
+5) Create an object of current class & assign to Runnable reference
+6) Create an object Thread class by passing Runnable reference
+7) Call start() method.
+8) Write main thread task code in a main() method.
+
+Synchronization:-
+            It is a mechanism that allows to access a shared resource only one thread at a time
+    There are two ways to synchronize the code 
+    1.Synchronizing methods
+    2.Synchronizing a block of code
+Note:- wait() & notify mehtods must ber used in SYnchronized area otherwise illegalmonitorStateException will be thrown
