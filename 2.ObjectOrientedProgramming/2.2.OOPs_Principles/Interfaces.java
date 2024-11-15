@@ -22,5 +22,3 @@ public class Interfaces implements Test{
         obj.show();
     }
 }
-//Interfaces can be instantiated means object creation
-//
