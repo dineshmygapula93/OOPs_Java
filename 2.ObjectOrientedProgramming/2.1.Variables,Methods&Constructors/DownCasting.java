@@ -1,4 +1,4 @@
-//Assigning object or object reference of super class to sub class type is known as Upcasting
+//Assigning object or object reference of super class to sub class type is known as Downcasting
 //DownCasting must be done by the programmer explicitly otherwise compile time error occurs
 //DownCasting always needs Upcasting to get memory  
 class DC{
