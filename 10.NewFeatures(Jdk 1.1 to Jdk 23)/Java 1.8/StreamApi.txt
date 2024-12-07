@@ -1,0 +1,31 @@
+Stream API:-
+            In Java 8. Stream is a collection of Objects that are pipelined to process &
+             to get desired Output
+            Stream API contains various Methods to perform operation on collection of objects
+            For example,filtering,Mapping,reducing,sorting,...etc
+            By using stream api, we can reduce the code.
+    java.util.stream.Stream<T>
+    methods:-
+        Public abstract Stream<T> filter(Predicate<T>);
+        Public abstract Stream<R> map(function<T,R>);
+        Public abstract Stream<T> distinct();
+        Public abstract Stream<T> sorted();
+        Public abstract void foreach(Consumer <T>);
+        public abstract T reduce(T,BinaryOperator<T>);
+Fliter() Method:-
+    It is used to filter the elements of a collection based on predicate logic
+java.util.Collection<E>
+Method:-
+    Public default Stream<E> stream()
+    It returns Stream reference
+ForEach() Method:-
+    It used to iterate elements of a collection based  on Consmer logic
+Map():-
+    It is used to Map every element of a collection to perform operation by using function logic
+Distinct() Method:-
+    It is used to get unique elements form collection
+Sorted() Method:-
+    It used to sort the elements of a collection
+Reduce() Method:-
+    It is used to perform operations on collection elements to
+     get a single value based on Binary operator logic
