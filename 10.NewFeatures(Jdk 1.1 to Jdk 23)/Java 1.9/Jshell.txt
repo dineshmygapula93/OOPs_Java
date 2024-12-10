@@ -1,0 +1,13 @@
+Jshell:-
+    Jshell means Java Shell
+
+It is called as REPL(Read Evaluate Print Loop)
+It is used to execute logical code snippets
+It is suitable to learn java programming very quickly
+It is not possible to develop applications by using this
+It is also called as an interactive tool
+
+To Open Jshell:-
+        C:>Jshell
+To Close Jshell:-
+        C:>/exit
