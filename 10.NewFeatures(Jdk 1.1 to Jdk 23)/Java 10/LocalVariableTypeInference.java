@@ -17,4 +17,8 @@ public class LocalVariableTypeInference {
 // System.out.println(a);
 // a=2323.32f;  -> Here it is error
 // System.out.println(a);
-// Note:- Here Once type is decided then it cannot be changed
+
+// Note:-
+//        Here Once type is decided then it cannot be changed
+//        Var can be applied to block variable also
+//        Var cannot be used as method Parameter
