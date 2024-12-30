@@ -1,6 +1,6 @@
 Compiling&Running Java Program With Single Command:-
-            This feature allows to Compile & Run the java program with single Command as follows
+            This feature allows to Compile & Run the java program with Single Command as follows
             
             C:\>java Demo.java
 
-Note:- This Feature does not Produces the .class File.
+Note:- This Feature does not Produces the .class File
